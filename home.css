@@ -1,0 +1,60 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    
+    
+}
+
+.all{
+    display: flex;
+    height: 100%;
+
+}
+
+.lefts{
+    width: 300px;
+    height: 100%;
+    background-color: white;
+}
+
+.rights{
+    flex-grow: 1;
+    height: 100%;
+}
+
+.dsl{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    border-block-end: solid 1px black;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 25px;
+    
+}
+
+.dsl2{
+    display: flex;
+    height: 50%;
+    text-align: center;    
+    justify-content: center;
+    align-items: center;
+     font-weight: bold;
+    
+}
+
+.icon{
+height: 100px;
+width: 100px;
+
+    
+    
+}
