@@ -1,0 +1,55 @@
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    font-family: sans-serif;
+}
+.all{
+        display: flex;
+        height: 100%;
+}
+.lijeva-strana{
+    width: 300px;
+    height: 100%;
+    background-color: white;
+}
+
+.desna-strana{
+    flex-grow: 1;
+    height: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.lijeva-gore{
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    border-block-end: solid 1px black;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    gap: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.lijeva-dole{
+    display: flex;
+    height: 50%;
+    text-align: center;    
+    justify-content: center;
+    align-items: center;
+     font-weight: bold;
+     font-size: 30px;
+}
+
+.ikona{
+    height: 100px;
+width: 100px;
+}

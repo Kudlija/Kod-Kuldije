@@ -6,6 +6,7 @@ body{
     height: 100%;
     margin: 0;
     background-color: black;
+    font-family: sans-serif;
     
     
 }
@@ -25,6 +26,10 @@ body{
 .rights{
     flex-grow: 1;
     height: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    flex-direction: column;
+
 }
 
 .dsl{
@@ -38,6 +43,8 @@ body{
     align-items: center;
     font-family: sans-serif;
     gap: 25px;
+    font-weight: bold;
+    font-size: 20px;
     
 }
 
@@ -48,6 +55,8 @@ body{
     justify-content: center;
     align-items: center;
      font-weight: bold;
+     font-size: 30px;
+     font-family: sans-serif;
     
 }
 
@@ -58,3 +67,104 @@ width: 100px;
     
     
 }
+
+.dsgd{
+    display: flex;
+}
+
+.header{
+    display: flex;
+    height:50px ;
+    justify-content: end;
+   
+
+}
+
+.footer{
+    display: flex;
+    height: 50px;
+    color: white;
+    
+    
+}
+
+.sredina{
+    display: flex;
+    height: 650px;
+    flex-grow:1;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    
+    
+    
+}
+.texst{
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.dugme{
+        border: none;
+        border-radius: 12px;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        font-weight: bold;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        width: 150px;
+        box-sizing: border-box;
+        
+}
+
+.slika{
+    width: 500px;
+    height: 300px;
+    border: none;
+    border-radius:25px ;
+}
+
+.fb{
+    display: flex;
+    width:50px ;
+    height: 50px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.ig{
+    width: 50px;
+    height: 50px;
+}
+
+.left{
+    flex-grow: 1;
+}
+.leftText{
+    margin: 0px;
+    padding: 0px;
+}
+.right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+  
+
+
+    
+    
+
+
+
+
+
