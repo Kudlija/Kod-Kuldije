@@ -1,0 +1,10 @@
+
+.grid{
+    display: grid;
+    grid-template-rows: repeat(20 , 1fr);
+    grid-template-columns:repeat(20 , 1fr);
+    width: 500%;
+    height: 500px;
+    gap: 50px;
+    
+}
