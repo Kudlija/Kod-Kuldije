@@ -1,0 +1,98 @@
+html{
+    height: 100%;
+    
+}
+
+
+body{
+    height: inherit;
+    margin: 0;
+}
+
+.all{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+    
+
+
+.left-side{
+width: 50%;
+height: 100%;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(9,1fr) ;
+gap: 10px;
+padding: 10px;
+box-sizing: border-box;
+}
+
+.slika1{
+    height: 100%;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 1/4;
+}
+
+.slika2{
+    height: 100%;
+    width: 100%;
+    grid-column: 1;
+    grid-row: 4/7;
+}
+
+.slika3{
+    height: 100%;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 1/3;
+}
+
+.slika4{
+    height: 100%;
+    width: 100%;
+    grid-column: 2;
+    grid-row:3/5
+}
+
+.slika5{
+    height: 100%;
+    width: 100%;
+    grid-column: 2;
+    grid-row: 5/7;
+}
+
+.slika6{
+    height: 100%;
+    width: 100%;
+    grid-column: 3;
+    grid-row: 1/4;
+}
+
+.slika7{
+    height: 100%;
+    width:100%;
+    grid-column: 3;
+    grid-row: 4/7;
+}
+
+.slika8{
+    height: 100%;
+    width: 100%;
+    grid-column:1/4;
+    grid-row:7/10;
+    
+}
+
+
+.right-side{
+    width: 50%;
+    height: 100%;
+}
+
+.right-gore{
+    
+}
+.right-dole{}
