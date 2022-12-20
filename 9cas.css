@@ -1,0 +1,32 @@
+html{
+    height: 100%;
+}
+
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: black;
+}
+
+
+.home{
+    height: 95%;
+    border-bottom: grey solid 2px;
+    background-image: url(https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png);
+    filter: brightness(50%);
+}
+
+.home-navbar{
+    height: 10%;
+    padding-inline: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.logo{
+    height:90%
+}
+

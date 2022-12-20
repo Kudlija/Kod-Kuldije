@@ -48,6 +48,10 @@ function doAction(){
     
 }
 
+//pustit korsnika da unese 5 omiljenih vocki,skladistiti unos u niz i ispisati elemente niya u konzolu
+
+
+
 
 
 
