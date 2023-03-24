@@ -1,0 +1,24 @@
+#box1{
+    height: 80px;
+    width: 100;
+    display: none;
+    background-color: red;
+    
+}
+
+#box2{
+    height: 80px;
+    width: 100;
+    display: none;
+    background-color: yellow;
+    
+}
+
+#box3{
+    height: 80px;
+    width: 100;
+    display: none;
+    background-color: green;
+    
+}
+

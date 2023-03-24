@@ -1,0 +1,6 @@
+.borrder{
+    height: 50%;
+    width: 50%;
+    border: black dotted 1px;
+    border-radius: 70px;
+}
