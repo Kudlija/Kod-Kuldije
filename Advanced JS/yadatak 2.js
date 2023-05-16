@@ -5,4 +5,6 @@ function ValidateNumber(){
 
     let numberValue = InputNumber.value;
     if(!numberValuel)
+
+     
 }
